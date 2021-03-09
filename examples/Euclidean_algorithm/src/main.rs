@@ -1,3 +1,5 @@
+//ユークリッドの互除法
+
 use nannou::prelude::*;
 
 struct Model {}
