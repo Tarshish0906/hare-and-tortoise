@@ -16,6 +16,16 @@ fn model(_app: &App) -> Model {
 }
 
 fn event(_app: &App, _model: &mut Model, _event: Event) {
+    //横縦比が num_a : num_b の長方形によって分割
+    let num_a = 10;
+    let num_b = 6;
+    
+    //長方形の拡大倍率
+    let scalar = 50;
+
+    //数値の大きさを拡大
+    let num_a *= scalar;
+    let num_b *= scalar;
 
 }
 
