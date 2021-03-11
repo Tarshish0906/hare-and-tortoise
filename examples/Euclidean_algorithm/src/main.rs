@@ -31,6 +31,14 @@ fn event(_app: &App, _model: &mut Model, _event: Event) {
     // 分割に使う正方形の幅の大きさ（初期値 num_b）
     let wd = num_b;
 
+    // 正方形のx位置（初期値 0）
+    let x_pos = 0;
+    // 正方形のy位置（初期値 0）
+    let y_pos = 0;
+    // 分割の繰り返し回数（初期値 0）
+    let itr = 0;
+
+
 
 
 }
