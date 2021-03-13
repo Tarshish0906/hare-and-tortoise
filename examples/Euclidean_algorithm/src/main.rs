@@ -37,14 +37,12 @@ fn event(_app: &App, _model: &mut Model, _event: Event) {
     let y_pos = 0;
     // 分割の繰り返し回数（初期値 0）
     let itr = 0;
-
-
-
-
-
-
 }
 
 fn view(_app: &App, _model: &Model, _frame: Frame) {
+    // 繰り返し処理
+    // 幅が0になるまで以下を実行
+    while (wd > 0) {
 
+    }
 }
