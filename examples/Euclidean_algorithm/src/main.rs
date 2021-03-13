@@ -6,8 +6,8 @@ struct Model {}
 
 fn main() {
     nannou::app(model)
-    .event(event)
     .simple_window(view)
+    .size(500, 500)
     .run();
 }
 
@@ -37,6 +37,8 @@ fn event(_app: &App, _model: &mut Model, _event: Event) {
     let y_pos = 0;
     // 分割の繰り返し回数（初期値 0）
     let itr = 0;
+
+
 
 
 
