@@ -44,6 +44,6 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
     // 幅が0になるまで以下を実行
     while (wd > 0) {
         // 繰り返し回数を1増やす
-        itr += ;
+        itr += 1 ;
     }
 }
