@@ -49,8 +49,13 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
         if (itr % 2 == 1){
             // 幅を足したとき、長方形を超えなければ以下を実行
             while (x_pos + wd <= num_a){
-
+                // (x_pos,y_pos)を頂点とする1辺 wd の正方形を描画
+                draw(x_pos, y_pos, wd, wd);
+                // x位置を更新
+                x_pos += wd;
             }
+            
         }
+
     }
 }
