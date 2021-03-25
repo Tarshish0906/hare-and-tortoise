@@ -26,4 +26,7 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
     // 縦横比が num_a : num_b の長方形を正方形によって分割
     let mut num_a = 10;
     let mut num_b = 6;
+
+    // 長方形の拡大倍率
+    let scalar = 50
 }
