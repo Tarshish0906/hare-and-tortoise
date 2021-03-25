@@ -33,4 +33,9 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
     // 数値の大きさを拡大
     num_a *= scalar;
     num_b *= scalar;
+
+    // プログラム中に動く関数
+
+    // 分割に使う正方形の幅の大きさ(初期値 num_b)
+    let wd = num_b;
 }
