@@ -28,5 +28,5 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
     let mut num_b = 6;
 
     // 長方形の拡大倍率
-    let scalar = 50
+    let scalar = 50;
 }
