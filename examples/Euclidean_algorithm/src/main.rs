@@ -29,4 +29,8 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
 
     // 長方形の拡大倍率
     let scalar = 50;
+
+    // 数値の大きさを拡大
+    num_a *= scalar;
+    num_b *= scalar;
 }
