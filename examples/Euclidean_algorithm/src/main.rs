@@ -36,6 +36,12 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
 
     // プログラム中に動く関数
 
-    // 分割に使う正方形の幅の大きさ(初期値 num_b)
+    // 分割に使う正方形の幅の大きさ（初期値 num_b）
     let wd = num_b;
+
+    // 正方形の x 位置（初期値 0）
+    let mut x_pos = 0;
+
+    // 正方形の y 位置（初期値 0）
+    let mut y_pos = 0;
 }
