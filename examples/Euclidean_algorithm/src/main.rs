@@ -53,7 +53,14 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
     while(wd > 0){
         // 繰り返し回数を1増やす
         itr += 1;
-
+        // 繰り返し回数が奇数の時、x軸方向に正方形を増やす
+        if (itr % 2 == 1){
+            // 幅を足した時、長方形を越えなければ以下を実行
+            while (x_pos + wd <= num_a){
+                draw(x_pos, y_pos, wd, wd);
+                x_pos += wd;
+            }
+        }
 
     }
 }
