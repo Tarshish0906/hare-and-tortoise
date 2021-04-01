@@ -58,10 +58,14 @@ fn view(_app: &App, _model: &Model, _frame: Frame) {
             // 幅を足した時、長方形を越えなければ以下を実行
             while (x_pos + wd <= num_a){
                 draw(x_pos, y_pos, wd, wd);
-                
                 x_pos += wd;
             }
+            wd = num_a - x_pos;
+        }else {
+            while (y_pos + wd <= num_b){
+                draw(x_pos, y_pos, wd, wd);
+                y_pos += wd;
         }
-
+        wd = num_b - y_pos;
     }
 }
